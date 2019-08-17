@@ -29,5 +29,5 @@ function Header(){
 
   return headerDiv;
 }
-let container = document.querySelector('.header-container');
-container.appendChild(Header());
+let headerContainer = document.querySelector('.header-container');
+headerContainer.appendChild(Header());
